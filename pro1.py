@@ -1,6 +1,6 @@
 import sys
 if len(sys.argv) != 5:
-    print("Usage: python student.py <name> <marks> <attendance> <rating>")
+    print("Usage: python student.py  <marks> <attendance> <rating>")
     sys.exit()
 
 name = sys.argv[1]
@@ -26,7 +26,6 @@ else:
 
 
 print("\n--- Student Report ---")
-print(f"Name       : {name}")
 print(f"Marks      : {marks} ({grade})")
 print(f"Attendance : {attendance}% ({att_status})")
 print(f"Rating     : {rating} ({remark})")
